@@ -1,0 +1,33 @@
+class Fratio():
+
+	def _init_(self, msb, msw):
+		self.mean_square_between = msb
+		self.mean_square_within = msw
+
+	def get_msb():
+		return self.mean_square_between
+
+	def get_msw():
+		return self.mean_square_within
+
+	def set_msb(msb):
+		self.mean_square_between = msb
+
+	def set_msw(msw):
+		self.mean_square_within = msw
+
+class table():
+	table_type = 1
+	c_factor_name = ""
+	has_c_name = False
+	r_factor_name = ""
+	has_r_name = False
+	
+	def _init_(self, t_type):
+		self.table_type = t_type
+		if (self.table_type == 2):
+			c_factor_name = c_name
+			has_c_name = True
+			r_factor_name = r_name
+			has_r_name = True
+
